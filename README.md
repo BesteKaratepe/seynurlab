@@ -16,6 +16,8 @@ npm install
 
 4.Backend için .env dosyamızı oluşturalım ve içeriğini aşağıdaki gibi ayarlayalım.
 
+Not: backend klasörü içerisine
+
   ```env
 PORT=5000
 JWT_SECRET=your_key
@@ -28,7 +30,8 @@ JWT_EXP='500s'  # Bu süre isteğe bağlı olarak değiştirilebilir.
 npm start
    ```
    
-6.Backend'i başlatmak için ise aşağıdaki komutlardan birini kullanabiliriz
+6.Backend'i başlatmak için ise aşağıdaki komutlardan birini kullanabiliriz.
+
    ```bash
 npm run debug  # DebugMode
 # veya
